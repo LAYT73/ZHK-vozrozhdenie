@@ -83,6 +83,18 @@ body {
 	display: block;
 }
 
+.w-h-100 {
+	width: 100%;
+	height: 100%;
+}
+
+.j-c-c {
+	justify-content: center;
+}
+
+.a-i-c {
+	align-items: center;
+}
 
 .container {
   display: flex;
@@ -170,7 +182,7 @@ body {
 
 .advantages {
 	height: 1200px;
-	background-color: rgb(255, 255, 255);
+	background-color: #E5E5E5;
 }
 
 .advantages-title {
@@ -272,4 +284,66 @@ body {
 
 #adv-6:hover {
 	background-size: 120% 120%;
+}
+
+
+.map {
+	height: 900px;
+	background-color: #E5E5E5;
+}
+
+.map-title {
+	font-weight: 600;
+	font-size: 36px;
+	text-align: center;
+	height: 100px;
+}
+
+.map-img {
+	width: 100%;
+	height: 600px;
+	background: url(../assets/images/Map.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.room-map {
+	width: 100%;
+	height: 800px;
+	background-color: #E5E5E5;
+}
+
+.room-map-title {
+	font-weight: 600;
+	font-size: 36px;
+	text-align: center;
+	height: 100px;
+}
+
+.room-map-block {
+	width: 100%;
+	height: 480px;
+	background-color: white;
+	border-radius: 20px;
+	align-items: center;
+	padding: 40px;
+}
+
+.room-map-block__left {
+	width: 50%;
+	height: 100%;
+}
+
+.room-map-block__right {
+	width: 50%;
+	height: 100%;
+	padding-bottom: 10px;
+}
+
+.room-map-block__right-container {
+	background-color: #F2F9FF;
+	height: 100%;
+	width: 100%;
+	border-radius: 20px;
 }
